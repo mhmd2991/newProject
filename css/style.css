@@ -387,12 +387,13 @@ main .container .search-results {
     padding: 0px 20px;
 }
 
-.sectorcontent .allsector .secTitle{
+.sectorcontent .allsector .secTitle {
     display: flex;
     align-items: center;
     padding: 30px 0;
 }
-.sectorcontent .allsector .secTitle img{
+
+.sectorcontent .allsector .secTitle img {
     width: 50px
 }
 
@@ -404,13 +405,9 @@ main .container .search-results {
     margin-right: 20px;
 }
 
-.sectorcontent .allsector h3::before {
+.sectorcontent .allsector h3::before {}
 
-}
-
-.sectorcontent .allsector h3::after {
-
-}
+.sectorcontent .allsector h3::after {}
 
 @media(max-width: 1399px) {
     .sectorcontent .allsector h3::after {
@@ -464,7 +461,7 @@ main .container .search-results {
 }
 
 .sectorcontent .sectorinfo .box:hover {
-   background-color: #130b69;
+    background-color: #130b69;
 }
 
 .sectorcontent .sectorinfo .box:hover .right img {
@@ -645,7 +642,7 @@ input[type=checkbox]:checked:before {
     color: #793699 !important;
 }
 
-.box.active input[type=checkbox]:before {
+.allsector .box.active input[type=checkbox]:before {
     background-color: #3d3986;
     color: var(--whiteColor) !important;
 }
@@ -1289,6 +1286,7 @@ input[type=checkbox]:checked:before {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    flex-direction: row-reverse;
 }
 
 .container .iwaainfo .iwaainfosection {
@@ -1300,19 +1298,13 @@ input[type=checkbox]:checked:before {
 
 .container .iwaainfo .progrss {
     flex-basis: 30%;
-    padding: 25px;
+    padding: 0 25px 25px 25px;
     background-color: var(--whiteColor);
     position: relative;
 }
 
 .container .iwaainfo .progrss::before {
-    content: "";
-    position: absolute;
-    background: linear-gradient(to left, rgba(67, 16, 141, 1) 50%, rgba(10, 103, 207, 1) 100%);
-    width: 60%;
-    height: 5px;
-    top: 0;
-    right: 0;
+
 }
 
 .container .iwaainfo .progrss input[type="radio"] {
@@ -1335,26 +1327,14 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .progrss .head .nav>li {
     position: relative;
     min-height: 30px;
-    width: 91%;
+    width: 100%;
     font-size: 14px;
     font-weight: 500;
-    margin-right: 30px;
-
     cursor: pointer;
-
     transition: all .3s ease-in-out;
 }
 
-.container .iwaainfo .progrss .head .nav>li::before {
-    content: "";
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 1px solid var(--darkBlue);
-    margin-right: -45px;
-    display: block;
-}
+.container .iwaainfo .progrss .head .nav>li::before {}
 
 .container .iwaainfo .progrss .head .nav>li::after {
     content: "";
@@ -1362,19 +1342,22 @@ input[type=checkbox]:checked:before {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background-color: var(--mediumDarkGray);
-    top: 5px;
-    right: -40px;
-    color: var(--whiteColor);
+    background-color: transparent;
+    border: 1px solid #130b69;
+    top: 11px;
+    right: 10px;
+    color: #130b69;
     z-index: 4;
     text-align: center;
 }
 
 .container .iwaainfo .progrss .head .nav li .nav-title {
-    padding: 5px;
-    border: 1px solid #b3b3b3;
-    border-radius: 5px;
-    color: #451c9f;
+    padding: 10px;
+    color: #7c7d7f;
+    background-color: #f8fafe;
+    font-size: 16px;
+    padding-right: 45px;
+    margin-bottom: 10px;
 }
 
 .container .iwaainfo .progrss .head .nav>li:first-of-type::after {
@@ -1457,18 +1440,23 @@ input[type=checkbox]:checked:before {
     content: "20";
 }
 
+.container .iwaainfo .progrss .head .nav>li:nth-of-type(21)::after {
+    content: "21";
+}
+
 .container .iwaainfo .progrss .head .nav>li:hover::after {
-    background-color: #0f0b68;
+    background-color: var(--whiteColor);
+    color: #130b69;
 }
 
 .container .iwaainfo .progrss .head .nav>li.active::after {
-    background-color: #0f0b68;
+    background-color: var(--whiteColor);
+    color: #130b69;
 }
 
 .container .iwaainfo .progrss .head .nav li.active .nav-title {
     color: var(--whiteColor);
     background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
-    padding: 5px;
 }
 
 .container .iwaainfo .progrss .head .line {
@@ -1478,6 +1466,7 @@ input[type=checkbox]:checked:before {
     position: absolute;
     top: 1px;
     right: 1px;
+    display: none;
 }
 
 .container .iwaainfo .progrss .head .line-1 {
@@ -1949,9 +1938,8 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li .box {
-    background: linear-gradient(to left, rgba(234, 236, 244, 1) 50%, rgba(252, 252, 252, 1) 100%);
-    display: flex;
     gap: 20px;
+    flex-direction: column-reverse;
     align-items: center;
     border-radius: 5px;
     width: 100%;
@@ -1960,50 +1948,42 @@ input[type=checkbox]:checked:before {
     z-index: 1;
     margin-top: 10px;
     margin-bottom: 10px;
-    opacity: 0;
-    visibility: hidden;
-    max-height: 0;
+    display: none;
     transition: visibility 0s linear 0s, opacity 300ms;
 }
 
 .container .iwaainfo .progrss .head .nav li:hover {}
 
 .container .iwaainfo .progrss .head .nav li:hover .box {
-    opacity: 1;
-    visibility: visible;
-    min-height: 150px;
-    position: relative;
+    display: flex;
+    width: 100%;
 }
 
 .container .iwaainfo .progrss .head .nav li:hover .special {
-    min-height: 240px;
+ 
 }
 
 .container .iwaainfo .progrss .head .nav li:hover .nav-title {
     background: linear-gradient(to left, rgba(6, 11, 101, 1) 50%, rgba(66, 12, 119, 1) 100%);
     color: var(--whiteColor);
-    padding: 5px;
+
 }
 
 .container .iwaainfo .progrss .head .nav li .box .logo {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: -22px;
+    width: 70px;
+    height: 70px;
 }
 
 .container .iwaainfo .progrss .head .nav li .box .multiple {
-    top: 15px;
+    margin-left: 197px;
+    display: flex;
 }
 
 .container .iwaainfo .progrss .head .nav li .box .logo img {
     width: 100%;
-    border-radius: 50%;
-    border: 1px solid #0f0b68;
 }
 
 .container .iwaainfo .progrss .head .nav li .box .steps {
-    min-width: 300px;
     font-weight: 300;
     font-size: 12.5px;
 }
@@ -2055,16 +2035,15 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss .head .nav li .box .steps .steps-list li {
-    list-style: disc outside none;
-    display: list-item;
     margin-bottom: 5px;
     margin-right: 15px;
     color: #808080;
+    font-size: 14px;
 }
 
 
 .container .iwaainfo .iwaainfosection .section h2 {
-    color: #451c9f;
+    color: #130b69;
     margin-bottom: 10px;
 }
 
@@ -2080,16 +2059,18 @@ input[type=checkbox]:checked:before {
     height: auto;
 }
 
+
+
 .iwaainfosection .box {
-    padding: 20px 10px 0px 10px;
+    padding: 15px 10px 0px 10px;
 }
 
 .iwaainfosection .box .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--darkBlue);
+    padding: 10px 15px;
+    background-color: var(--whiteColor);
     cursor: pointer;
 }
 
@@ -2112,7 +2093,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .box .top .inner-right p {
     color: #606061;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     margin-right: 25px;
 }
 
@@ -2129,14 +2110,16 @@ input[type=checkbox]:checked:before {
     max-height: 0;
 }
 
-.iwaainfosection .box>.bottom>* {
-    padding: 10px 0;
-    min-width: 33.33%;
+.iwaainfosection .jeha>.bottom>* {
+    padding: 10px;
+    width: calc((100% - 15px) / 3);
 }
 
 .iwaainfosection .box .bottom .right,
-.iwaainfosection .box .bottom .middle {
-    border-left: 1px solid #c4c8d1;
+.iwaainfosection .box .bottom .middle,
+.iwaainfosection .box .bottom .left {
+    background-color: var(--whiteColor);
+    min-height: 270px;
 }
 
 @media(max-width: 991px) {
@@ -2158,20 +2141,38 @@ input[type=checkbox]:checked:before {
     opacity: 1;
     visibility: visible;
     max-height: 850px;
+    padding: 10px 0;
+    position: relative;
+}
+
+.iwaainfosection .box.active .top {
+    background-color: #130b69;
+}
+
+.iwaainfosection .box.active .top .inner-right p {
+    color: var(--whiteColor);
+}
+
+.iwaainfosection .box.active .top .inner-right img {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .iwaainfosection .box .bottom .middle .title img {
     width: 32px;
     height: auto;
+
 }
 
 .iwaainfosection .box.active .fa-angle-down {
     transform: rotate(180deg);
+    color: var(--whiteColor);
 }
 
 .iwaainfosection .box .bottom h4 {
     margin-bottom: 10px;
-    color: #606061;
+    padding-right: 16px;
+    color: #170f6b;
 }
 
 .iwaainfosection .desc .bottom {
@@ -2193,7 +2194,7 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .time .top,
 .iwaainfosection .money .top {
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .iwaainfosection .time .inner-time,
@@ -2212,15 +2213,38 @@ input[type=checkbox]:checked:before {
     margin-left: 20px;
 }
 
-.iwaainfosection .money .inner-money p span {
-    color: #4a4cf8;
-}
+.iwaainfosection .money .inner-money p span {}
 
 .iwaainfosection .terms .bottom .inner-check,
 .iwaainfosection .needs .bottom .inner-check {
     display: flex;
     gap: 15px;
     margin-bottom: 10px;
+    padding-right: 16px;
+}
+
+.iwaainfosection input[type=checkbox]:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    font-size: 14px;
+    line-height: 1.6;
+    color: transparent !important;
+    background-color: transparent;
+    border: 1px solid #7c7cb1;
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-right: -5px;
+    margin-top: -5px;
+    border-radius: 5px;
+}
+
+.iwaainfosection input[type=checkbox]:checked:before {
+    color: #793699 !important;
+}
+
+.iwaainfosection  input[type=checkbox]:before {
+    
 }
 
 .iwaainfosection .terms .bottom .inner-check p,
@@ -2246,10 +2270,12 @@ input[type=checkbox]:checked:before {
     background-size: cover;
     background-color: transparent;
     width: 32px;
+    position: absolute;
+    top: 15px;
 }
 
 .iwaainfosection .link .bottom a {
-    color: var(--babyBlue);
+    color: #7246a8;
     font-weight: 300;
     text-decoration: underline;
     margin-right: 55px;
@@ -2259,6 +2285,7 @@ input[type=checkbox]:checked:before {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 15px;
 }
 
 .iwaainfosection .jeha .bottom .right .right-img,
@@ -2272,6 +2299,7 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .jeha .bottom .right .right-img {
     height: 60px;
+    text-align: center;
 }
 
 
@@ -2289,6 +2317,7 @@ input[type=checkbox]:checked:before {
     font-weight: bold;
     color: #451c9f;
     font-size: 14px;
+    display: none;
 }
 
 .iwaainfosection .jeha .bottom .right .bottom p {
@@ -2311,7 +2340,7 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .jeha .bottom .middle iframe {
-    border-radius: 30px;
+    
 }
 
 .iwaainfosection .jeha .bottom .left .phone,
@@ -2336,7 +2365,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .phone .phone-inner h3,
 .iwaainfosection .jeha .bottom .left .pc .pc-inner h3,
 .iwaainfosection .jeha .bottom .left .email .email-inner h3 {
-    color: #606060;
+    color: #7246a8;
     font-weight: bold;
     font-size: 17px;
 }
@@ -2346,7 +2375,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .email .email-inner a {
     font-weight: 300;
     font-size: 14px;
-    color: var(--babyBlue);
+    color: #979797;
 }
 
 .iwaainfosection .jeha .bottom .left .phone .phone-inner p {
@@ -2363,7 +2392,6 @@ input[type=checkbox]:checked:before {
     line-height: 2.5;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 30px;
     margin-left: -23px;
 
 }
@@ -2386,26 +2414,22 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection img {
-    width: 30px;
+    width: 40px;
 }
-
 
 .container .generlaTitle {
     display: flex;
     align-items: center;
-    margin: 150px auto 0;
-    /*border-bottom: 2px solid var(--darkBlue);*/
     width: fit-content;
     width: -moz-fit-content;
+    padding: 25px 0;
 }
 
 main .container .generlaTitle h2 {
-
     text-align: center;
     color: #5f2e8d;
     font-weight: bold;
-    font-size: 35px;
-    padding-bottom: 10px;
+    font-size: 22px;
 }
 
 main .container .generlaTitle img {
