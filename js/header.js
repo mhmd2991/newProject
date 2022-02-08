@@ -3,7 +3,7 @@ function createHeader(){
             <div class="container">
                 <div class="top-header">
                     <div class="logo">
-                        <img src="../images/sbc-logo.png">
+                        <img src="images/sbc-logo.png">
                     </div>
                     <ul class="navbar">
                         <li><a href="#">الخدمات الالكترونية</a></li>
