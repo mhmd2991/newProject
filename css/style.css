@@ -241,7 +241,7 @@ main .container .search-results {
 .container .search-results a {
     color: #6f3c94;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .container .search-results .search-result-item .search-item img {
@@ -265,8 +265,7 @@ main .container .search-results {
     width: 200px;
 }
 .container .search-results .search-result-item .details .details-text p{
-    font-size: 18px;
-    letter-spacing: .5px;
+    font-size: 20px;
     color: #513583;
 }
 .container .search-results .search-result-item .details .details-text i{
@@ -278,6 +277,10 @@ main .container .search-results {
     color: var(--whiteColor);
     font-size: 18px;
     padding: 10px;
+}
+
+.container .search-results .search-result-item:hover .search-item{
+    color: #130b69;
 }
 
 .container .search-results .search-result-item:hover .details .details-text{
