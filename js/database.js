@@ -32,7 +32,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "النقل<br/> والخدمات اللوجستية",
+        sectorName: "النقل والخدمات اللوجستية",
         sectorCode: "m907",
         sectorIcon: "icon-4.png",
         sectorN: "transport",
@@ -49,7 +49,7 @@ const database = [
         desc: "شرح تفصيلي",
     },
     {
-        sectorName: "الاتصالات<br/> وتقنية المعلومات",
+        sectorName: "الاتصالات وتقنية المعلومات",
         sectorCode: "P001",
         sectorIcon: "icon-6.png",
         sectorN: "telecom",
