@@ -13,40 +13,40 @@ html {
     scroll-behavior: smooth;
 }
 
-/*@font-face {
-    font-family: myFirstFont;
+@font-face {
+    font-family: myFont;
     src: url(../font/DINNextLTArabic-Light.ttf);
     font-weight: 300;
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: myFont;
     src: url(../font/DINNextLTArabic-Regular.ttf);
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: myFont;
     src: url(../font/DINNextLTArabic-Regular.ttf);
     font-weight: 400;
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: myFont;
     src: url(../font/DINNextLTArabic-Medium.ttf);
     font-weight: 500;
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: myFont;
     src: url(../font/DINNextLTArabic-Bold.ttf);
     font-weight: bold;
 }
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: myFont;
     src: url(../font/DINNextLTArabic-Black.ttf);
     font-weight: bolder;
-}*/
+}
 
 @font-face {
     font-family: myFirstFont;
@@ -1297,8 +1297,8 @@ input[type=checkbox]:checked:before {
 }
 
 .container .iwaainfo .progrss {
-    flex-basis: 30%;
-    padding: 0 25px 25px 25px;
+    flex-basis: 31%;
+    padding: 0 20px 25px 20px;
     background-color: var(--whiteColor);
     position: relative;
 }
@@ -2429,11 +2429,11 @@ main .container .generlaTitle h2 {
     text-align: center;
     color: #5f2e8d;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 main .container .generlaTitle img {
-    width: 70px;
+    width: 60px;
 }
 
 @media(max-width: 991px) {
