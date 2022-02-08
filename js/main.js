@@ -17,7 +17,7 @@ function getResults() {
         for (let i = 0; i < database.length; i++) {
             if (database[i].sectorName.toLowerCase().includes(search.toLowerCase()) || database[i].sectorCode.toLowerCase().includes(search.toLowerCase())) {
                 selectElement('.search-results').innerHTML += `
-<a href="sector.html?id=${database[i].sectorCode}"><div class="search-result-item">
+<div class="search-result-item">
 <span class="search-item"><img src="images/${database[i].sectorIcon}"></span>
 <span class="search-item">${database[i].sectorName}</span>
 <div class="details">
@@ -25,9 +25,9 @@ function getResults() {
  <p>الدليل الإرشادي</p>
  <i class="fas fa-long-arrow-alt-left"></i>
  </div>
- <div class="details-btn">تفاصيل</div>
+ <a href="sector.html?id=${database[i].sectorCode}" class="details-btn">تفاصيل</a>
 </div>
-</div></a>
+</div>
 `;
             }
         }
@@ -40,7 +40,7 @@ function getResults() {
 function PrintAll() {
     for (let i = 0; i < database.length; i++) {
         selectElement('.search-results').innerHTML += `
-<a href="sector.html?id=${database[i].sectorCode}"><div class="search-result-item">
+<div class="search-result-item">
 <span class="search-item"><img src="images/${database[i].sectorIcon}"></span>
 <span class="search-item">${database[i].sectorName}</span>
 <div class="details">
@@ -48,9 +48,9 @@ function PrintAll() {
  <p>الدليل الإرشادي</p>
  <i class="fas fa-long-arrow-alt-left"></i>
  </div>
- <div class="details-btn">تفاصيل</div>
+ <a href="sector.html?id=${database[i].sectorCode}" class="details-btn">تفاصيل</a>
 </div>
-</div></a>
+</div>
 `;
     }
 }
