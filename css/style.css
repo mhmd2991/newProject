@@ -463,16 +463,17 @@ main .container .search-results {
 }
 
 .sectorcontent .sectorinfo .box:hover {
-   
+   background-color: #130b69;
 }
 
 .sectorcontent .sectorinfo .box:hover .right img {
-
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .sectorcontent .sectorinfo .box:hover .left .top h3,
 .sectorcontent .sectorinfo .box:hover .left p {
-
+    color: var(--whiteColor);
 }
 
 .sectorcontent .sectorinfo {
@@ -627,7 +628,8 @@ input[type="checkbox"] {
 input[type=checkbox]:before {
     font-family: "FontAwesome";
     content: "\f00c";
-    font-size: 15px;
+    font-size: 12px;
+    line-height: 1.6;
     color: transparent !important;
     background-color: var(--whiteColor);
     display: block;
@@ -640,6 +642,11 @@ input[type=checkbox]:before {
 
 input[type=checkbox]:checked:before {
     color: #793699 !important;
+}
+
+.box.active input[type=checkbox]:before {
+    background-color: #3d3986;
+    color: var(--whiteColor) !important;
 }
 
 .sectorcontent .allsector .topbox p {
@@ -658,9 +665,6 @@ input[type=checkbox]:checked:before {
 .sectorcontent .allsector .box .sectordetails p a {
     color: var(--mediumGray);
     font-weight: 300;
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: inside;
 }
 
 .sectorcontent .allsector .box .sectordetails p a:hover {
