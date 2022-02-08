@@ -285,6 +285,7 @@ main .container .search-results {
     justify-content: space-around;
     transition: var(--mainTransition) ease-in-out;
     height: 300px;
+    cursor: pointer;
 }
 
 .container .search-results .search-result-item:hover {
