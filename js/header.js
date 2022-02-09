@@ -120,4 +120,6 @@ switch (page) {
     case "anchita.html":
         createHeaderAn();
         break;
+    default:
+        createHeaderIndex();    
 }
