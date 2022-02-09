@@ -141,7 +141,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
     border-bottom: 1px solid #776f6f;
 }
 
@@ -161,6 +160,12 @@ a {
 
 .header .container .top-header .navbar li {
     margin-right: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid transparent;
+}
+
+.header .container .top-header .navbar li:hover {
+    border-bottom: 1px solid var(--whiteColor);
 }
 
 .header .container .top-header .navbar li a {
