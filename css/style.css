@@ -253,13 +253,14 @@ main .container .searchbar {
 
 main .container .searchbar::placeholder {
     color: var(--vintageGray);
-    font-weight: 500;
+    font-weight: 300;
     text-align: right;
 }
 
 .searchbar-2::placeholder {
     color: var(--vintageGray);
     text-align: right;
+    font-weight: 300;
 }
 
 main .container .searchbar:focus::placeholder,
