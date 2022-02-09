@@ -2340,9 +2340,9 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .jeha .bottom .middle .title p {
     color: #451c9f;
-    font-weight: 700;
-    font-size: 24px;
-    margin-right: 25px;
+    font-weight: 300;
+    font-size: 22px;
+    margin-right: 20px;
 }
 
 .iwaainfosection .jeha .bottom .middle iframe {}
@@ -2370,7 +2370,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .pc .pc-inner h3,
 .iwaainfosection .jeha .bottom .left .email .email-inner h3 {
     color: #7246a8;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 17px;
 }
 
