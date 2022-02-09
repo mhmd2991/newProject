@@ -7,14 +7,15 @@ function createHeaderIndex() {
             <div class="container">
                 <div class="top-header">
                     <div class="logo">
-                        <img src="images/sbc-logo.png">
+                        <img src="images/sbc-logo.svg">
                     </div>
                     <ul class="navbar">
+                        <li><a href="#">الرئيسية</a></li>
                         <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
-                        <li><a href="#">AR</a></li>
-                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
+                        <li><a href="#"><i class="fas fa-bars"></i></a></li>
+
                     </ul>
                 </div>
                 <div class="header-text">
@@ -33,14 +34,14 @@ function createHeaderSector() {
             <div class="container">
                 <div class="top-header">
                     <div class="logo">
-                        <img src="images/sbc-logo.png">
+                        <img src="images/sbc-logo.svg">
                     </div>
                     <ul class="navbar">
+                        <li><a href="#">الرئيسية</a></li>
                         <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
-                        <li><a href="#">AR</a></li>
-                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
+                        <li><a href="#"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </div>
                 <div class="header-text">
@@ -59,14 +60,14 @@ function createHeaderIwaa() {
             <div class="container">
                 <div class="top-header">
                     <div class="logo">
-                        <img src="images/sbc-logo.png">
+                        <img src="images/sbc-logo.svg">
                     </div>
                     <ul class="navbar">
+                        <li><a href="#">الرئيسية</a></li>
                         <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
-                        <li><a href="#">AR</a></li>
-                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
+                        <li><a href="#"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </div>
                 <div class="header-text">
@@ -85,14 +86,14 @@ function createHeaderAn() {
             <div class="container">
                 <div class="top-header">
                     <div class="logo">
-                        <img src="images/sbc-logo.png">
+                        <img src="images/sbc-logo.svg">
                     </div>
                     <ul class="navbar">
+                        <li><a href="#">الرئيسية</a></li>
                         <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
-                        <li><a href="#">AR</a></li>
-                        <li><a href="#"><i class="fas fa-search"></i></a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
+                        <li><a href="#"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </div>
                 <div class="header-text">
