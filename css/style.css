@@ -130,7 +130,10 @@ a {
 }*/
 
 .header {
-    background-color: #3e0c76;
+    /*background-color: #3e0c76;*/
+    background: url(../images/background-2.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     min-height: 50vh;
     position: relative;
 }
