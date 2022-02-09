@@ -19,7 +19,7 @@ function getResults() {
                 selectElement('.search-results').innerHTML += `
 <div class="search-result-item">
 <span class="search-item"><img src="images/${database[i].sectorIcon}"></span>
-<span class="search-item">${database[i].sectorName}</span>
+<span class="search-item p-text">${database[i].sectorName}</span>
 <div class="details">
  <div class="details-text">
  <p>الدليل الإرشادي</p>
@@ -42,7 +42,7 @@ function PrintAll() {
         selectElement('.search-results').innerHTML += `
 <div class="search-result-item">
 <span class="search-item"><img src="images/${database[i].sectorIcon}"></span>
-<span class="search-item">${database[i].sectorName}</span>
+<span class="search-item p-text">${database[i].sectorName}</span>
 <div class="details">
  <div class="details-text">
  <p>الدليل الإرشادي</p>
