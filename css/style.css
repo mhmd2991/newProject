@@ -2045,6 +2045,7 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .iwaainfosection .section h2 {
     color: #130b69;
     margin-bottom: 10px;
+    margin-right: 16px;
 }
 
 .container .iwaainfo .iwaainfosection .section {
