@@ -1,8 +1,8 @@
 let path = window.location.pathname;
 let page = path.split("/").pop();
-console.log( page );
+console.log(page);
 
-function createHeaderIndex(){
+function createHeaderIndex() {
     let header = `
             <div class="container">
                 <div class="top-header">
@@ -24,37 +24,11 @@ function createHeaderIndex(){
                 
             </div>
     `;
-    
+
     document.querySelector('.header').innerHTML = header;
 }
 
-function createHeaderSector(){
-    let header = `
-            <div class="container">
-                <div class="top-header">
-                    <div class="logo">
-                        <img src="images/sbc-logo.png">
-                    </div>
-                    <ul class="navbar">
-                        <li><a href="#">الخدمات الالكترونية</a></li>
-                        <li><a href="#">تواصل معنا</a></li>
-                        <li><a href="#">AR</a></li>
-                        <li><a href="#"><i class="fas fa-search"></i></a></li>
-                        <li><a href="#"><i class="fas fa-user"></i></a></li>
-                    </ul>
-                </div>
-                <div class="header-text">
-                <h2>إصدار ترخيص مرافق الإيواء السياحي</h2>
-                <p>المركز السعودي للأعمال / منصة الأعمال / قطاع السياحة</p>
-                </div>
-                
-            </div>
-    `;
-    
-    document.querySelector('.header').innerHTML = header;
-}
-
-function createHeaderIwaa(){
+function createHeaderSector() {
     let header = `
             <div class="container">
                 <div class="top-header">
@@ -76,11 +50,37 @@ function createHeaderIwaa(){
                 
             </div>
     `;
-    
+
     document.querySelector('.header').innerHTML = header;
 }
 
-function createHeaderAn(){
+function createHeaderIwaa() {
+    let header = `
+            <div class="container">
+                <div class="top-header">
+                    <div class="logo">
+                        <img src="images/sbc-logo.png">
+                    </div>
+                    <ul class="navbar">
+                        <li><a href="#">الخدمات الالكترونية</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                        <li><a href="#">AR</a></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
+                        <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    </ul>
+                </div>
+                <div class="header-text">
+                <h2>إصدار ترخيص مرافق الإيواء السياحي</h2>
+                <p>المركز السعودي للأعمال / منصة الأعمال / قطاع السياحة</p>
+                </div>
+                
+            </div>
+    `;
+
+    document.querySelector('.header').innerHTML = header;
+}
+
+function createHeaderAn() {
     let header = `
             <div class="container">
                 <div class="top-header">
@@ -102,16 +102,22 @@ function createHeaderAn(){
                 
             </div>
     `;
-    
+
     document.querySelector('.header').innerHTML = header;
 }
 
-if(page === "index.html"){
-    createHeaderIndex();
-}else if(page === "sector.html"){
-    createHeaderSector();
-}else if(page === "iwaainfo.html"){
-    createHeaderIwaa();
-}else {
-    createHeaderAn();
+
+switch (page) {
+    case "index.html":
+        createHeaderIndex();
+        break;
+    case "sector.html":
+        createHeaderSector();
+        break;
+    case "iwaainfo.html":
+        createHeaderIwaa();
+        break;
+    case "anchita.html":
+        createHeaderAn();
+        break;
 }
