@@ -180,6 +180,10 @@ a {
     font-size: 50px;
 }
 
+.header .container .header-text .st {
+    font-size: 80px;
+}
+
 .header .container .header-text p {
     font-size: 18px;
 }
