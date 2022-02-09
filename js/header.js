@@ -19,7 +19,7 @@ function createHeaderIndex() {
                     </ul>
                 </div>
                 <div class="header-text">
-                <h2>الأدلة الإرشادية</h2>
+                <h2 class="st">الأدلة الإرشادية</h2>
                 <p>المركز السعودي للأعمال / الأدلة الإرشادية</p>
                 </div>
                 
