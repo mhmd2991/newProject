@@ -2310,7 +2310,12 @@ input[type=checkbox]:checked:before {
 
 
 .iwaainfosection .jeha .bottom .right .right-img img {
-    width: 70px;
+    width: 100px;
+    margin-top: 60px;
+}
+
+.iwaainfosection .jeha .bottom .right .mn img{
+    margin-top: 0;
 }
 
 .iwaainfosection .jeha .bottom .right .middle,
