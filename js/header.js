@@ -11,7 +11,7 @@ function createHeaderIndex() {
                     </div>
                     <ul class="navbar">
                         <li><a href="#">الرئيسية</a></li>
-                        <li><a href="#">الخدمات الإلكتروني</a></li>
+                        <li><a href="#">الخدمات الإلكترونية</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
                         <li><a href="#"><i class="fas fa-bars"></i></a></li>
@@ -38,14 +38,14 @@ function createHeaderSector() {
                     </div>
                     <ul class="navbar">
                         <li><a href="#">الرئيسية</a></li>
-                        <li><a href="#">الخدمات الإلكتروني</a></li>
+                        <li><a href="#">الخدمات الإلكترونية</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
                         <li><a href="#"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </div>
                 <div class="header-text">
-                <h2>الأدلة الإرشادية</h2>
+                <h2 class="st">الأدلة الإرشادية</h2>
                 <p>المركز السعودي للأعمال / الأدلة الإرشادية / قطاع السياحة</p>
                 </div>
                 
@@ -64,7 +64,7 @@ function createHeaderIwaa() {
                     </div>
                     <ul class="navbar">
                         <li><a href="#">الرئيسية</a></li>
-                        <li><a href="#">الخدمات الإلكتروني</a></li>
+                        <li><a href="#">الخدمات الإلكترونية</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
                         <li><a href="#"><i class="fas fa-bars"></i></a></li>
@@ -90,14 +90,14 @@ function createHeaderAn() {
                     </div>
                     <ul class="navbar">
                         <li><a href="#">الرئيسية</a></li>
-                        <li><a href="#">الخدمات الإلكتروني</a></li>
+                        <li><a href="#">الخدمات الإلكترونية</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#"><i class="fas fa-user"></i></a></li>
                         <li><a href="#"><i class="fas fa-bars"></i></a></li>
                     </ul>
                 </div>
                 <div class="header-text">
-                <h2>الأنشطة السياحية</h2>
+                <h2>إصدار ترخيص الأنشطة السياحة</h2>
                 <p>المركز السعودي للأعمال / الأدلة الإرشادية / قطاع السياحة</p>
                 </div>
                 
