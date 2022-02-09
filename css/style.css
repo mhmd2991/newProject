@@ -162,6 +162,7 @@ a {
     margin-right: 20px;
     padding: 20px 0;
     border-bottom: 1px solid transparent;
+    transition: var(--mainTransition) ease-in-out;
 }
 
 .header .container .top-header .navbar li:hover {
