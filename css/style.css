@@ -286,6 +286,7 @@ main .container .search-results {
     transition: var(--mainTransition) ease-in-out;
     height: 300px;
     cursor: pointer;
+     color: #6f3c94;
 }
 
 .container .search-results .search-result-item:hover {
