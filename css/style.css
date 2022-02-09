@@ -2284,7 +2284,7 @@ input[type=checkbox]:checked:before {
     color: #7246a8;
     font-weight: 300;
     text-decoration: underline;
-    margin-right: 55px;
+    margin-right: 16px;
 }
 
 .iwaainfosection .jeha>.bottom {
