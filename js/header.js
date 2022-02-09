@@ -10,7 +10,7 @@ function createHeaderIndex() {
                         <img src="images/sbc-logo.png">
                     </div>
                     <ul class="navbar">
-                        <li><a href="#">الخدمات الالكترونية</a></li>
+                        <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#">AR</a></li>
                         <li><a href="#"><i class="fas fa-search"></i></a></li>
@@ -36,7 +36,7 @@ function createHeaderSector() {
                         <img src="images/sbc-logo.png">
                     </div>
                     <ul class="navbar">
-                        <li><a href="#">الخدمات الالكترونية</a></li>
+                        <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#">AR</a></li>
                         <li><a href="#"><i class="fas fa-search"></i></a></li>
@@ -62,7 +62,7 @@ function createHeaderIwaa() {
                         <img src="images/sbc-logo.png">
                     </div>
                     <ul class="navbar">
-                        <li><a href="#">الخدمات الالكترونية</a></li>
+                        <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#">AR</a></li>
                         <li><a href="#"><i class="fas fa-search"></i></a></li>
@@ -88,7 +88,7 @@ function createHeaderAn() {
                         <img src="images/sbc-logo.png">
                     </div>
                     <ul class="navbar">
-                        <li><a href="#">الخدمات الالكترونية</a></li>
+                        <li><a href="#">الخدمات الإلكتروني</a></li>
                         <li><a href="#">تواصل معنا</a></li>
                         <li><a href="#">AR</a></li>
                         <li><a href="#"><i class="fas fa-search"></i></a></li>
