@@ -322,6 +322,7 @@ main .container .search-results {
     justify-content: space-around;
     border: 1px solid var(--whiteColor);
     padding: 10px;
+    font-size: 18px;
     width: 200px;
 }
 
@@ -337,6 +338,7 @@ main .container .search-results {
 
 .container .search-results .search-result-item .details .details-btn {
     background-color: #2cabe2;
+    border: 1px solid #2cabe2;
     color: var(--whiteColor);
     font-size: 18px;
     padding: 10px;
