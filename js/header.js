@@ -18,8 +18,8 @@ function createHeaderIndex() {
                     </ul>
                 </div>
                 <div class="header-text">
-                <h2>الأدلة الارشادية</h2>
-                <p>المركز السعودي للأعمال / منصة الأعمال / الأدلة الارشادية</p>
+                <h2>الأدلة الإرشادية</h2>
+                <p>المركز السعودي للأعمال / الأدلة الإرشادية</p>
                 </div>
                 
             </div>
@@ -44,8 +44,8 @@ function createHeaderSector() {
                     </ul>
                 </div>
                 <div class="header-text">
-                <h2>قطاع السياحة</h2>
-                <p>المركز السعودي للأعمال / منصة الأعمال / قطاع السياحة</p>
+                <h2>الأدلة الإرشادية</h2>
+                <p>المركز السعودي للأعمال / الأدلة الإرشادية / قطاع السياحة</p>
                 </div>
                 
             </div>
@@ -71,7 +71,7 @@ function createHeaderIwaa() {
                 </div>
                 <div class="header-text">
                 <h2>إصدار ترخيص مرافق الإيواء السياحي</h2>
-                <p>المركز السعودي للأعمال / منصة الأعمال / قطاع السياحة</p>
+                <p>المركز السعودي للأعمال / الأدلة الإرشادية / قطاع السياحة</p>
                 </div>
                 
             </div>
@@ -97,7 +97,7 @@ function createHeaderAn() {
                 </div>
                 <div class="header-text">
                 <h2>الأنشطة السياحية</h2>
-                <p>المركز السعودي للأعمال / منصة الأعمال / قطاع السياحة</p>
+                <p>المركز السعودي للأعمال / الأدلة الإرشادية / قطاع السياحة</p>
                 </div>
                 
             </div>
@@ -120,6 +120,7 @@ switch (page) {
     case "anchita.html":
         createHeaderAn();
         break;
-    default:
-        createHeaderIndex();    
+    case "":
+        createHeaderIndex();
+        break;   
 }
