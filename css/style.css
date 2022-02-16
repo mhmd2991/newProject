@@ -406,6 +406,7 @@ main .container .search-results {
     background-color: var(--whiteColor);
     flex-basis: 30%;
     padding: 0px 20px;
+    margin-bottom: 50px;
 }
 
 .sectorcontent .allsector .secTitle {
@@ -1322,6 +1323,7 @@ input[type=checkbox]:checked:before {
 .container .iwaainfo .progrss {
     flex-basis: 31%;
     padding: 0 20px 25px 20px;
+    margin-bottom: 50px;
     background-color: var(--whiteColor);
     position: relative;
 }
