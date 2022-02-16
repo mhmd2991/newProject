@@ -2503,3 +2503,7 @@ main .container .generlaTitle img {
     cursor: auto;
     opacity: .5;
 }
+
+.iwaainfosection .desc .bottom iframe{
+    display: none;
+}
