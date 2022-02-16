@@ -22,10 +22,10 @@ function getResults() {
 <span class="search-item p-text">${database[i].sectorName}</span>
 <div class="details">
  <div class="details-text">
- <p>الدليل الإرشادي</p>
+ <p>تفاصيل</p>
  <i class="fas fa-long-arrow-alt-left"></i>
  </div>
- <a href="sector.html?id=${database[i].sectorCode}" class="details-btn">تفاصيل</a>
+ <a href="sector.html?id=${database[i].sectorCode}" class="details-btn">هنا</a>
 </div>
 </div>
 `;
@@ -45,10 +45,10 @@ function PrintAll() {
 <span class="search-item p-text">${database[i].sectorName}</span>
 <div class="details">
  <div class="details-text">
- <p>الدليل الإرشادي</p>
+ <p>تفاصيل</p>
  <i class="fas fa-long-arrow-alt-left"></i>
  </div>
- <a href="sector.html?id=${database[i].sectorCode}" class="details-btn">تفاصيل</a>
+ <a href="sector.html?id=${database[i].sectorCode}" class="details-btn">هنا</a>
 </div>
 </div>
 `;
