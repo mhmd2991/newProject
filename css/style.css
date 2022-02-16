@@ -96,7 +96,6 @@ a {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 80px;
 }
 
 /* Small */
@@ -2328,7 +2327,7 @@ input[type=checkbox]:checked:before {
     margin-top: 60px;
 }
 
-.iwaainfosection .jeha .bottom .right .mn img{
+.iwaainfosection .jeha .bottom .right .mn img {
     margin-top: 0;
 }
 
@@ -2504,6 +2503,96 @@ main .container .generlaTitle img {
     opacity: .5;
 }
 
-.iwaainfosection .desc .bottom iframe{
+.iwaainfosection .desc .bottom iframe {
     display: none;
+}
+
+.footer {
+    background-color: #130b69;
+
+}
+
+.footer .container {}
+
+.footer .container .row {
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 2px solid #403b7c;
+}
+
+.footer .container .row .box {}
+
+.footer .container .row .box ul {}
+
+.footer .container .row .box ul li {
+    color: var(--whiteColor);
+    font-size: 18px;
+}
+
+.footer .container .row .box img {
+    width: 70px;
+    height: 70px;
+}
+
+.footer .container .row .box-1 {
+    margin-left: 60px;
+}
+
+.footer .container .row .box-2 {
+    margin-left: 60px;
+}
+
+.footer .container .row .box .ulbox-1 li,
+.footer .container .row .box .ulbox-2 li {
+    margin-bottom: 20px;
+}
+
+
+.footer .container .row .box .ulbox-1 li:nth-of-type(2) {
+    margin-right: 20px;
+}
+
+.footer .container .row .box .ulbox-1 li:nth-of-type(3) {
+    margin-right: 40px;
+}
+
+.footer .container .row .box .ulbox-2 li:first-of-type {
+    margin-right: 20px;
+}
+
+.footer .container .row .box .ulbox-2 li:nth-of-type(3) {
+    margin-right: 20px;
+}
+
+.footer .container .row .socilas {
+    align-self: self-end;
+    margin-right: auto;
+}
+
+.footer .container .row .socilas .social-media {
+    display: flex;
+    align-items: center;
+}
+
+.footer .container .row .socilas .social-media li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--whiteColor);
+    text-align: center;
+    margin-left: 10px;
+    line-height: 1.7;
+}
+
+.footer .container .row .socilas .social-media li i {
+    color: #130b69;
+}
+
+.footer .copyright {
+    color: var(--whiteColor);
+    padding: 15px 0;
+}
+
+.footer .copyright p {
+    text-align: left;
 }
