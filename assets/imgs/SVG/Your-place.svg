@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="324" height="202" viewBox="0 0 324 202">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="324" height="202" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect x="1" y="99" width="174" height="108" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_2" data-name="Scroll Group 2" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="من_مكانك" data-name="من مكانك" transform="translate(-1326 -456)">
+      <path id="Path_2461" data-name="Path 2461" d="M1645.342,604.722a24.2,24.2,0,1,0-45.77,10.954c.124.244,15.917,30.229,20.4,38.742a1.325,1.325,0,0,0,2.348,0c4.392-8.352,19.632-37.33,19.949-37.9a24.07,24.07,0,0,0,3.072-11.8m-24.194-11.8a11.8,11.8,0,1,1-11.8,11.8,11.8,11.8,0,0,1,11.8-11.8" fill="#fff"/>
+      <text id="_ـكـانك" data-name="ـكـانك" transform="translate(1598 639)" fill="#fff" font-size="110" font-family="SSTArabic-Bold, SST Arabic" font-weight="700"><tspan x="-271.15" y="0">ـكـانك</tspan></text>
+      <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(1475 357)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+        <text id="مــن" transform="translate(175 163)" fill="#fff" font-size="110" font-family="SSTArabic-Bold, SST Arabic" font-weight="700"><tspan x="-174.24" y="0">مــن</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
