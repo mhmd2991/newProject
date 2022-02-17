@@ -2299,7 +2299,7 @@ input[type=checkbox]:checked:before {
 
 .iwaainfosection .terms .print .btn-print,
 .iwaainfosection .needs .print .btn-print {
-    padding: 10px 21px;
+    padding: 10px 24px;
     cursor: pointer;
     background-image: url(../images/print-icon.png);
     background-repeat: no-repeat;
