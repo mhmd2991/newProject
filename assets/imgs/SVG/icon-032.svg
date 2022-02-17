@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.496" height="55.572" viewBox="0 0 52.496 55.572">
+  <g id="Icon" transform="translate(0.007)">
+    <path id="Path_5888" data-name="Path 5888" d="M41.561,36.9a8.207,8.207,0,0,0-2.44-3.415,6.7,6.7,0,0,0-2.753-1.444l-7.1-2.064a1.548,1.548,0,0,1-1.1-1.3l-.328-2.813A12.11,12.11,0,0,0,32,19.32c1.265-.112,2.241-1.522,2.241-3.3a3.162,3.162,0,0,0-1.957-3.256" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <path id="Path_5889" data-name="Path 5889" d="M12.252,12.781a3.193,3.193,0,0,0-1.895,3.239c0,1.776.968,3.184,2.234,3.3a12.162,12.162,0,0,0,4.166,6.544l-.325,2.809a1.545,1.545,0,0,1-1.1,1.306L8.253,32.034a6.693,6.693,0,0,0-2.774,1.452,8.165,8.165,0,0,0-2.81,4.7L1.008,46.494a.388.388,0,0,0,.081.333.4.4,0,0,0,.309.145H8.614" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <path id="Path_5890" data-name="Path 5890" d="M32.285,12.763S32.872,1,22.3,1,12.253,12.781,12.253,12.781" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <path id="Path_5891" data-name="Path 5891" d="M13.005,7.726a3.78,3.78,0,0,1,2.1-1.814,5.982,5.982,0,0,1,4.427.529c2,.914,3.752,1.99,6,2.237A10.281,10.281,0,0,0,31.552,7.7" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <path id="Path_5892" data-name="Path 5892" d="M28.834,29.777,22.3,36.553l-6.537-6.776" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <path id="Path_5893" data-name="Path 5893" d="M51.49,46.678a7.895,7.895,0,1,0-7.9,7.9h0a7.894,7.894,0,0,0,7.894-7.894Z" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <line id="Line_49" data-name="Line 49" y1="7.95" transform="translate(43.596 42.703)" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <line id="Line_50" data-name="Line 50" x2="7.949" transform="translate(39.621 46.678)" fill="none" stroke="#fafafa" stroke-linejoin="round" stroke-width="1.998"/>
+    <path id="Path_5894" data-name="Path 5894" d="M16.573,46.821a1.465,1.465,0,1,1-1.318-1.6h.005a1.465,1.465,0,0,1,1.313,1.6" fill="#8500fc"/>
+    <path id="Path_5895" data-name="Path 5895" d="M23.75,46.821a1.465,1.465,0,1,1-1.318-1.6h.005a1.465,1.465,0,0,1,1.313,1.6" fill="#8500fc"/>
+    <path id="Path_5896" data-name="Path 5896" d="M30.933,46.821a1.465,1.465,0,1,1-1.318-1.6h0a1.466,1.466,0,0,1,1.314,1.6" fill="#8500fc"/>
+  </g>
+</svg>

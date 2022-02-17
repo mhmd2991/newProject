@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.391" height="73.391" viewBox="0 0 73.391 73.391">
+  <g id="Left" transform="translate(1791.032 975.707) rotate(180)">
+    <g id="Circle">
+      <path id="Circle-2" data-name="Circle" d="M1754.344,964.684A25.688,25.688,0,1,1,1780.031,939,25.687,25.687,0,0,1,1754.344,964.684Z" fill="none" stroke="#793699" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.335" opacity="0.2"/>
+      <circle id="Border" cx="25.691" cy="25.691" r="25.691" transform="translate(1718.291 934.445) rotate(-37.781)" fill="none" stroke="#793699" stroke-linecap="square" stroke-miterlimit="10.001" stroke-width="0.584"/>
+      <circle id="Active" cx="25.691" cy="25.691" r="25.691" transform="translate(1742.507 904.658) rotate(26)" fill="none" stroke="#793699" stroke-linecap="square" stroke-miterlimit="10.001" stroke-width="3.503" stroke-dasharray="58.389 11676.671"/>
+    </g>
+    <path id="Arrow" d="M1585.764,1096.526l5.911-5.911v4.9h16.037v2.024h-16.037v4.9Z" transform="translate(3351.476 2035.053) rotate(180)" fill="#459ef3"/>
+  </g>
+</svg>

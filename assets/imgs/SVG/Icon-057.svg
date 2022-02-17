@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.583" height="54.86" viewBox="0 0 49.583 54.86">
+  <g id="Icon" transform="translate(0)">
+    <path id="Path_5999" data-name="Path 5999" d="M9.917,35.7c-2.224,0-3.967-1.306-3.967-2.975H7.933c0,.405.772.992,1.984.992s1.982-.587,1.982-.992-.772-.992-1.982-.992c-2.224,0-3.967-1.306-3.967-2.975s1.743-2.975,3.967-2.975,3.967,1.307,3.967,2.975H11.9c0-.4-.772-.991-1.982-.991s-1.984.587-1.984.991.772.992,1.984.992c2.224,0,3.967,1.306,3.967,2.975S12.141,35.7,9.917,35.7" fill="#000b63"/>
+    <rect id="Rectangle_5761" data-name="Rectangle 5761" width="1.983" height="3.967" transform="translate(18.842 33.715)" fill="#2cabe2"/>
+    <rect id="Rectangle_5762" data-name="Rectangle 5762" width="1.983" height="4.958" transform="translate(28.758 32.724)" fill="#000b63"/>
+    <rect id="Rectangle_5763" data-name="Rectangle 5763" width="1.983" height="9.917" transform="translate(33.716 27.765)" fill="#2cabe2"/>
+    <rect id="Rectangle_5764" data-name="Rectangle 5764" width="1.983" height="6.942" transform="translate(38.675 30.74)" fill="#000b63"/>
+    <rect id="Rectangle_5765" data-name="Rectangle 5765" width="1.983" height="12.891" transform="translate(43.633 24.791)" fill="#000b63"/>
+    <rect id="Rectangle_5766" data-name="Rectangle 5766" width="1.983" height="6.942" transform="translate(23.8 30.74)" fill="#000b63"/>
+    <path id="Path_6000" data-name="Path 6000" d="M39.666,10.908H37.683V5.95H32.724V3.966h6.942Z" fill="#000b63"/>
+    <path id="Path_6001" data-name="Path 6001" d="M17.009,18.109l-1.4-1.4L23.8,8.514l4.959,4.958,9.215-9.215,1.4,1.4L28.758,16.277,23.8,11.318Z" fill="#000b63"/>
+    <path id="Path_6002" data-name="Path 6002" d="M18.841,27.766V22.808H11.9V0H43.632V22.808H27.59l-6.061,4.958ZM41.649,1.983H13.883V20.824h6.941v4.957l6.059-4.957H41.649Z" fill="#000b63"/>
+    <path id="Path_6003" data-name="Path 6003" d="M43.592,7.933V9.916H47.6v35.7H1.983V9.916H12.891V7.933H0V47.6H49.582V7.933Z" fill="#000b63"/>
+    <path id="Path_5998" data-name="Path 5998" d="M15.568,52.876H11.9V54.86H36.691V52.876H33.906L32.123,47.6H17.362Z" fill="#8347ad"/>
+    <rect id="Rectangle_5758" data-name="Rectangle 5758" width="47.599" height="1.984" transform="translate(0.992 40.657)" fill="#000b63"/>
+    <rect id="Rectangle_5759" data-name="Rectangle 5759" width="1.983" height="2.975" transform="translate(8.925 23.8)" fill="#000b63"/>
+    <rect id="Rectangle_5760" data-name="Rectangle 5760" width="1.983" height="2.975" transform="translate(8.925 34.708)" fill="#000b63"/>
+  </g>
+</svg>
