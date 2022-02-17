@@ -70,6 +70,8 @@ html {
 
 body {
     font-family: myFont;
+    font-size: 16px;
+    font-weight: 300;
     direction: rtl;
 
 }
