@@ -2223,7 +2223,8 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .desc .bottom p {
-    flex-basis: 60%;
+    flex-basis: 100%;
+    font-size: 16px;
     color: var(--mediumDarkGray);
     padding: 10px 15px;
 }
