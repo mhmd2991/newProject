@@ -355,6 +355,7 @@ main .container .search-results {
     color: var(--whiteColor);
     font-size: 18px;
     padding: 10px;
+    font-weight: 300;
 }
 
 .container .search-results .search-result-item:hover .search-item {
