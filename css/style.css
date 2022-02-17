@@ -264,14 +264,14 @@ main .container .searchbar {
 
 main .container .searchbar::placeholder {
     color: var(--vintageGray);
-    font-weight: 300;
+    font-weight: 500;
     text-align: right;
 }
 
 .searchbar-2::placeholder {
     color: var(--vintageGray);
     text-align: right;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 main .container .searchbar:focus::placeholder,
