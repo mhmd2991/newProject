@@ -468,6 +468,10 @@ main .container .search-results {
     font-weight: 300;
 }
 
+.sectorcontent .allsector .box .sectortitle div input{
+    margin-top: 0;
+}
+
 .sectorcontent .sectorinfo .box {
     display: flex;
     align-items: center;
