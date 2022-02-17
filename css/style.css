@@ -69,12 +69,8 @@ html {
 }
 
 body {
-    font-family: myFont;
-    font-size: 16px;
-    font-weight: 300;
     direction: rtl;
-    line-height: 1.6;
-    overflow-x: hidden;
+
 }
 
 h1,
@@ -206,7 +202,7 @@ a {
 
 main .container .input-form {
     width: 100%;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     position: relative;
     padding: 20px 0;
     border-radius: 10px;
@@ -214,7 +210,7 @@ main .container .input-form {
 
 .input-form-2 {
     width: 100%;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     position: relative;
     padding: 20px 0;
     display: flex;
@@ -223,7 +219,7 @@ main .container .input-form {
 .input-form-2 i {
     position: absolute;
     font-size: 18px;
-    top: 23px;
+    top: 25px;
     left: 4px;
     color: #969696;
     background-color: #efefef;
@@ -243,7 +239,7 @@ main .container .input-form i {
 }
 
 main .container .searchbar {
-    padding: 15px 45px;
+    padding: 12px 45px;
     width: 100%;
     margin: 0 auto;
     border-radius: 5px;
@@ -253,7 +249,7 @@ main .container .searchbar {
 }
 
 .searchbar-2 {
-    padding: 15px 45px;
+    padding: 12px 45px;
     width: 100%;
     margin: auto;
     border-radius: 5px;
@@ -644,6 +640,7 @@ input[type="checkbox"] {
     text-align: center;
     line-height: 1.4;
     position: relative;
+    margin-top: 7px;
 }
 
 input[type=checkbox]:before {
@@ -683,9 +680,22 @@ input[type=checkbox]:checked:before {
     gap: 30px;
 }
 
+.sectorcontent .allsector .box .sectordetails .sector-inner{
+    display: flex;
+    align-items: center;
+}
+
+.sectorcontent .allsector .box .sectordetails img{
+    width: 18px;
+    padding: 5px 0;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+
 .sectorcontent .allsector .box .sectordetails p a {
     color: var(--mediumGray);
     font-weight: 300;
+    font-size: 16px;
 }
 
 .sectorcontent .allsector .box .sectordetails p a:hover {
@@ -1371,6 +1381,7 @@ input[type=checkbox]:checked:before {
     color: #130b69;
     z-index: 4;
     text-align: center;
+    line-height: 1.6;
 }
 
 .container .iwaainfo .progrss .head .nav li .nav-title {
@@ -2067,6 +2078,7 @@ input[type=checkbox]:checked:before {
     color: #130b69;
     margin-bottom: 10px;
     margin-right: 16px;
+    font-size: 24px;
 }
 
 .container .iwaainfo .iwaainfosection .section {
@@ -2412,7 +2424,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .jeha .bottom .left .phone .icon,
 .iwaainfosection .jeha .bottom .left .pc .icon,
 .iwaainfosection .jeha .bottom .left .email .icon {
-    line-height: 2.5;
+    line-height: 1.6;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: -23px;
