@@ -580,9 +580,8 @@ main .container .search-results {
 .allsector .box .sectordetails p {
     display: flex;
     align-items: center;
-    gap: 10px;
     padding: 5px 0;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .allsector .box .sectordetails p input {
@@ -691,14 +690,14 @@ input[type=checkbox]:checked:before {
 
 .sectorcontent .allsector .box .sectordetails .sector-inner{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .sectorcontent .allsector .box .sectordetails img{
     width: 12px;
     padding: 5px 0;
     margin-right: 15px;
-    margin-top: 4px;
+    margin-top: 12px;
 }
 
 .sectorcontent .allsector .box .sectordetails p a {
