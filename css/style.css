@@ -473,7 +473,7 @@ main .container .search-results {
     font-weight: 300;
 }
 
-.sectorcontent .allsector .box .sectortitle div input{
+.sectorcontent .allsector .box .sectortitle div input {
     margin-top: 0;
 }
 
@@ -688,12 +688,12 @@ input[type=checkbox]:checked:before {
     gap: 30px;
 }
 
-.sectorcontent .allsector .box .sectordetails .sector-inner{
+.sectorcontent .allsector .box .sectordetails .sector-inner {
     display: flex;
     align-items: flex-start;
 }
 
-.sectorcontent .allsector .box .sectordetails img{
+.sectorcontent .allsector .box .sectordetails img {
     width: 12px;
     padding: 5px 0;
     margin-right: 15px;
@@ -2349,8 +2349,15 @@ input[type=checkbox]:checked:before {
     margin-top: 60px;
 }
 
+.iwaainfosection .jeha .bottom .right .mn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .iwaainfosection .jeha .bottom .right .mn img {
     margin-top: 0;
+    cursor: pointer;
 }
 
 .iwaainfosection .jeha .bottom .right .middle,
@@ -2617,4 +2624,28 @@ main .container .generlaTitle img {
 
 .footer .copyright p {
     text-align: left;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .phone-inner .phone-link,
+.iwaainfosection .jeha .bottom .left .pc .pc-inner .web-link,
+.iwaainfosection .jeha .bottom .left .email .email-inner .mail-link {
+    display: none;
+}
+
+.iwaainfosection .jeha .bottom .left .phone .phone-inner .phone-link.active,
+.iwaainfosection .jeha .bottom .left .pc .pc-inner .web-link.active,
+.iwaainfosection .jeha .bottom .left .email .email-inner .mail-link.active {
+    display: flex;
+}
+
+
+.iwaainfosection .jeha .bottom .middle .mul {
+    opacity: 0;
+    display: none;
+    transition: var(--mainTransition) ease-in-out;
+}
+
+.iwaainfosection .jeha .bottom .middle .mul.active {
+    display: block;
+    opacity: 1;
 }
