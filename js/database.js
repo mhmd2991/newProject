@@ -2,7 +2,7 @@ const database = [
     {
         sectorName: "البلدية",
         sectorCode: "P001",
-        sectorIcon: "icon-5.png",
+        sectorIcon: "icon-5.svg",
         sectorN: "municipality",
         info: [],
         desc: "شرح تفصيلي",
@@ -26,7 +26,7 @@ const database = [
     {
         sectorName: "النقل والخدمات اللوجستية",
         sectorCode: "m907",
-        sectorIcon: "icon-4.png",
+        sectorIcon: "icon-4.svg",
         sectorN: "transport",
         info: [],
         desc: "شرح تفصيلي",
@@ -42,7 +42,7 @@ const database = [
     {
         sectorName: "الاتصالات وتقنية المعلومات",
         sectorCode: "P001",
-        sectorIcon: "icon-6.png",
+        sectorIcon: "icon-6.svg",
         sectorN: "telecom",
         info: [],
         desc: "شرح تفصيلي",
@@ -58,7 +58,7 @@ const database = [
     {
         sectorName: "الإعلام",
         sectorCode: "P001",
-        sectorIcon: "icon-8.png",
+        sectorIcon: "icon-8.svg",
         sectorN: "media",
         info: [],
         desc: "شرح تفصيلي",
@@ -66,7 +66,7 @@ const database = [
     {
         sectorName: "الصناعات العسكرية",
         sectorCode: "P001",
-        sectorIcon: "icon-9.png",
+        sectorIcon: "icon-9.svg",
         sectorN: "media",
         info: [],
         desc: "شرح تفصيلي",
@@ -74,7 +74,7 @@ const database = [
     {
         sectorName: "الترفيه",
         sectorCode: "P001",
-        sectorIcon: "icon-7.png",
+        sectorIcon: "icon-7.svg",
         sectorN: "media",
         info: [],
         desc: "شرح تفصيلي",
@@ -82,7 +82,7 @@ const database = [
     {
         sectorName: "الرياضة",
         sectorCode: "P001",
-        sectorIcon: "icon-12.png",
+        sectorIcon: "icon-12.svg",
         sectorN: "media",
         info: [],
         desc: "شرح تفصيلي",
@@ -98,7 +98,7 @@ const database = [
     {
         sectorName: "الغذاء والدواء",
         sectorCode: "P001",
-        sectorIcon: "icon-10.png",
+        sectorIcon: "icon-10.svg",
         sectorN: "media",
         info: [],
         desc: "شرح تفصيلي",
