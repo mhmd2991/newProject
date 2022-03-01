@@ -2649,3 +2649,7 @@ main .container .generlaTitle img {
     display: block;
     opacity: 1;
 }
+
+.link {
+    display: none;
+}
