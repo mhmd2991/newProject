@@ -66,10 +66,18 @@ previousButton.addEventListener("click", function() {
 
 
 let drops = document.querySelectorAll('.drop');
+let imgs = document.querySelectorAll('.drop .inner-right img');
 
 drops.forEach((drop) => {
     drop.addEventListener("click", function (e) {
         drop.parentNode.classList.toggle("active");
+        drop.children[0].firstElementChild.src = `../images/new-icons/${e.currentTarget.dataset.img}`;
+            if(drop.parentNode.classList.contains("active")){
+                
+            }else{
+                drop.children[0].firstElementChild.src = `../images/${e.currentTarget.dataset.old}`;
+            }
+
     });
 });
 
