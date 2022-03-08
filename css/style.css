@@ -2196,8 +2196,8 @@ input[type=checkbox]:checked:before {
 }
 
 .iwaainfosection .box.active .top .inner-right img {
-    -webkit-filter: brightness(0) invert(1);
-    filter: brightness(0) invert(1);
+   /* -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);*/
 }
 
 .iwaainfosection .box .bottom .middle .title img {
@@ -2306,7 +2306,7 @@ input[type=checkbox]:checked:before {
 .iwaainfosection .needs .print .btn-print {
     padding: 10px 24px;
     cursor: pointer;
-    background-image: url(../images/print-icon.png);
+    background-image: url(../images/new-icons/print-icon.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: transparent;
