@@ -10,7 +10,7 @@ const database = [
     {
         sectorName: "الصحة",
         sectorCode: "B201",
-        sectorIcon: "icon-3.png",
+        sectorIcon: "icon-3.svg",
         sectorN: "health",
         info: [],
         desc: "شرح تفصيلي",
@@ -18,7 +18,7 @@ const database = [
     {
         sectorName: "التعليم",
         sectorCode: "K503",
-        sectorIcon: "icon-2.png",
+        sectorIcon: "icon-2.svg",
         sectorN: "education",
         info: [],
         desc: "شرح تفصيلي",
@@ -34,7 +34,7 @@ const database = [
     {
         sectorName: "الصناعة",
         sectorCode: "P001",
-        sectorIcon: "icon-11.png",
+        sectorIcon: "icon-11.svg",
         sectorN: "trade",
         info: [],
         desc: "شرح تفصيلي",
@@ -50,7 +50,7 @@ const database = [
     {
         sectorName: "السياحة",
         sectorCode: "t102",
-        sectorIcon: "icon-1.png",
+        sectorIcon: "icon-1.svg",
         sectorN: "tourism",
         info: ["ترخيص عقاري", "الارشاد السياحي", "تنظيم الرحلات السياحية", "حجز وحدات الايواء", "الايواء السياحي"],
         desc: "شرح تفصيلي",
@@ -90,7 +90,7 @@ const database = [
     {
         sectorName: "الطاقة",
         sectorCode: "B201",
-        sectorIcon: "icon-13.png",
+        sectorIcon: "icon-13.svg",
         sectorN: "power",
         info: [],
         desc: "شرح تفصيلي",
