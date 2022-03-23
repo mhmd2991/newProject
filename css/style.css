@@ -303,6 +303,12 @@ main .container .search-results {
 
 .container .search-results .search-result-item:hover {
     background-color: var(--whiteColor);
+    
+}
+
+.container .search-results .search-result-item:first-of-type:hover {
+    background: url(../images/البلدية.jpg) no-repeat;
+    background-size: cover;
 }
 
 .container .search-results a {
